@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300);
+
+.image > a > img {
+	max-height: 18em;
+	min-height: 18em;
+	padding-top: 0.75em;
+	width: auto;
+}
+
+.details {
+	min-height: 10em;
+}
+
+/* Promo box */
+
+a.promobox-a {
+	background-color: #303a47;
+	min-height: 5em;
+	width: 100%;
+}
+
+a.promobox-b {
+	background-color: #6ba9ba;
+	min-height: 5em;
+	width: 100%;
+}
+
+a.promobox-a,
+a.promobox-b {
+	color: #fff;
+	display: inline-block;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.3em;
+	font-weight: 300;
+	padding: 2em 1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+a.promobox-a:hover,
+a.promobox-b:hover {
+	color: #fff;
+}
+
+a.promobox-a > span,
+a.promobox-b > span {
+	display: block;
+	font-size: 2.1em;
+	font-weight: 400;
+	margin: 0.25em auto;
+	padding: 0.25em 0;
+	max-width: 80%;
+}
+
+a.promobox-a > span {
+	border-top: 1px solid #59616c;
+	border-bottom: 1px solid #59616c;
+}
+
+a.promobox-b > span {
+	border-top: 1px solid #a6ccd6;
+	border-bottom: 1px solid #a6ccd6;
+}
